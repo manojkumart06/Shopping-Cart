@@ -1,0 +1,10 @@
+.App {
+    padding: 1rem;
+}
+h2{
+    font-size: 37px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: rgb(45, 32, 150);
+    padding: 1rem;
+  }
+  .navButtonsWrapper {
+    margin-block: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .navButton {
+    border: 0.15rem solid #000;
+    background-color: rgb(215, 246, 15);
+    color: blue;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in-out;
+    margin-left: 1rem;
+  }
+  
+  .navButton:hover {
+    transform: scale(0.9);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .icon_image {
+    width: 100px; /* Adjust width as needed */
+    height: 70px; /* Adjust height as needed */
+    margin-right: 20px; /* Add margin to the right if needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.icon_image:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
